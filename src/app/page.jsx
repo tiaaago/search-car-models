@@ -8,12 +8,12 @@ export default async function Page() {
 
     return (
         <>
-            <div className="container mx-auto pt-20 px-10">
+            <div className="container mx-auto my-20 px-10">
                 <form className="flex flex-col gap-6">
                     <h1 className="text-3xl text-center text-white font-semibold">Car Models Search</h1>
                     <div className="flex flex-row flex-wrap gap-10">
                         <div className="flex flex-col flex-1 py-2 gap-2">
-                            <p className="text-base text-white">Choose an make:</p>
+                            <p className="text-base text-white">Choose an maker:</p>
                             <CarsSelect cars={cars} />
                         </div>
                         <div className="flex flex-col flex-1 py-2 gap-2">

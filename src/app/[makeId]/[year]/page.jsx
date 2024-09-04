@@ -22,7 +22,7 @@ export default function Page({ params }) {
 
     return (
         <>
-            <div className="container mx-auto pt-20 px-10">
+            <div className="container mx-auto my-20 px-10">
                 <div className="flex flex-col gap-10">
                     <Suspense fallback={<Searching />}>
                         <Search makeId={makeId} year={year} />
