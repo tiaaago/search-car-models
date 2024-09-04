@@ -4,7 +4,7 @@ import { CarsContext } from "@/contexts/CarsContext";
 import { useContext, useEffect } from "react";
 
 export default function CarsSelect({ cars }) {
-    const { selectedCar, setCar } = useContext(CarsContext)
+    const { setCar } = useContext(CarsContext)
 
     const handleChangeCar = (car) => {
         setCar(car)

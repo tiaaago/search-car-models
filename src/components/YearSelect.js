@@ -4,7 +4,7 @@ import { YearContext } from "@/contexts/YearContext";
 import { useContext, useEffect } from "react";
 
 export default function YearSelect() {
-    const { selectedYear, setYear } = useContext(YearContext)
+    const { setYear } = useContext(YearContext)
 
     const handleChangeYear = (year) => {
         setYear(year)
